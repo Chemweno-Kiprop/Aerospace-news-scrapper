@@ -1,0 +1,5 @@
+The goal of this project will be to build a script that:
+1. Fetches the HTML content from an aerospace news website.
+2. Parses the content using Beautiful Soup.
+3. Extracts the headlines and their corresponding URLs (links).
+4. Organizes and displays the data cleanly.
