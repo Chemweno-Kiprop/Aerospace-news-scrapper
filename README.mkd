@@ -1,5 +1,30 @@
-The goal of this project will be to build a script that:
-1. Fetches the HTML content from an aerospace news website.
-2. Parses the content using Beautiful Soup.
-3. Extracts the headlines and their corresponding URLs (links).
-4. Organizes and displays the data cleanly.
+# Aerospace News Scraper
+
+This Python script scrapes the latest aerospace-related articles from two websites:
+- [Simple Flying](https://simpleflying.com/)
+- [SpaceNews](https://spacenews.com/)
+
+It extracts headlines and links, combines them into a single dataset, and saves the results into a CSV file (`aerospace_news.csv`).
+
+---
+
+## 📋 Features
+- Scrapes article headlines and links from **Simple Flying**.
+- Scrapes article headlines and links from **SpaceNews**.
+- Combines both sources into a single dataset.
+- Saves the dataset as a CSV file for easy analysis.
+- Prints the number of articles scraped and a preview of the first 20 entries.
+
+---
+
+## ⚙️ Requirements
+Make sure you have the following Python libraries installed:
+
+- `requests` – for sending HTTP requests
+- `beautifulsoup4` – for parsing HTML content
+- `pandas` – for handling and saving tabular data
+
+You can install them using:
+
+```bash
+pip install requests beautifulsoup4 pandas

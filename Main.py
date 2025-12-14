@@ -41,7 +41,7 @@ for item in article:
 
         if headline:
             news_data.append({
-                "source": "simpleflying",
+                #"source": "simpleflying",
                 "Headline": headline,
                 "Link": link
             })
@@ -62,7 +62,7 @@ for item in articles_sn:
 
         if headline:
             sn_data.append({
-                "source": "spacenews",
+                #"source": "spacenews",
                 "Headline": headline,
                 "Link": link
             })
